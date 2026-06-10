@@ -1,0 +1,34 @@
+<?xml <?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="theego999-gt" fetch="https://github.com/theego999-gt" clone-depth="1" />
+    <remote name="Lucifer-Alive" fetch="https://gitlab.com/Lucifer-Alive" clone-depth="1" />
+    <remote name="Never-Alive" fetch="https://github.com/Never-Alive" clone-depth="1" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/haydn" name="device_xiaomi_haydn" remote="theego999-gt" revision="Inf" />
+
+    <!-- Device - Common -->
+    <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="theego999-gt" revision="Inf" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8350" name="kernel_xiaomi_haydn" remote="theego999-gt" revision="lineage-23.0" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/haydn" name="vendor_xiaomi_haydn" remote="theego999-gt" revision="lineage-23.2" />
+    <project path="vendor/xiaomi/haydn-firmware" name="vendor_xiaomi_haydn-firmware" remote="Never-Alive" revision="global" />
+    <project path="vendor/xiaomi/miuicamera-haydn" name="vendor-xiaomi-miuicamera-haydn" remote="Lucifer-Alive" revision="16.0" />
+
+    <!-- Vendor - Common -->
+    <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="theego999-gt" revision="lineage-23.2" />
+
+    <!-- Hardware -->
+    <project path="hardware/dolby" name="hardware_dolby" remote="theego999-gt" revision="sony-1.5" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="theego999-gt" revision="lineage-23.2" />
+
+    <!-- Other Repos -->
+    <project path="packages/apps/DolbyUI" name="packages_apps_DolbyUI" remote="theego999-gt" revision="16.0" />
+    <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="theego999-gt" revision="lineage-23.2" />
+
+</manifest>
