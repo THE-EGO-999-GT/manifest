@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- Remotes -->
-    <remote name="theego999-gt" fetch="https://github.com/theego999-gt" clone-depth="1" />
+    <remote name="THE-EGO-999-GT" fetch="https://github.com/THE-EGO-999-GT" clone-depth="1" />
     <remote name="The-Ego-999" fetch="https://gitlab.com/The-Ego-999" clone-depth="1" />
 
     <!-- Device -->
