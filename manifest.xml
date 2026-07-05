@@ -4,7 +4,8 @@
     <!-- Remotes -->
     <remote name="THE-EGO-999-GT" fetch="https://github.com/THE-EGO-999-GT" clone-depth="1" />
     <remote name="The-Ego-999" fetch="https://gitlab.com/The-Ego-999" clone-depth="1" />
-
+    <remote name="Hexdare" fetch="https://gitlab.com/Hexdare" clone-depth="1" />
+    
     <!-- Device -->
     <project path="device/xiaomi/haydn" name="device_xiaomi_haydn" remote="THE-EGO-999-GT" revision="inf" />
 
@@ -16,7 +17,7 @@
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/haydn" name="vendor_xiaomi_haydn" remote="THE-EGO-999-GT" revision="lineage-23.2" />
-    <project path="vendor/xiaomi/haydn-firmware" name="vendor_xiaomi_haydn-firmware" remote="THE-EGO-999-GT" revision="global" />
+    <project path="vendor/xiaomi/haydn-firmware" name="vendor_xiaomi_haydn-firmware" remote="Hexdare" revision="fourteen" />
     <project path="vendor/xiaomi/miuicamera-haydn" name="vendor-xiaomi-miuicamera-haydn" remote="The-Ego-999" revision="16.0" />
 
     <!-- Vendor - Common -->
