@@ -6,10 +6,10 @@
     <remote name="The-Ego-999" fetch="https://gitlab.com/The-Ego-999" clone-depth="1" />
     
     <!-- Device -->
-    <project path="device/xiaomi/haydn" name="device_xiaomi_haydn" remote="THE-EGO-999-GT" revision="Inf" />
+    <project path="device/xiaomi/haydn" name="device_xiaomi_haydn" remote="THE-EGO-999-GT" revision="inf" />
 
     <!-- Device - Common -->
-    <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="THE-EGO-999-GT" revision="Inf" />
+    <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="THE-EGO-999-GT" revision="inf" />
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm8350" name="kernel_xiaomi_haydn" remote="THE-EGO-999-GT" revision="lineage-23.0" />
