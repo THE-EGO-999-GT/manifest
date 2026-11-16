@@ -6,6 +6,11 @@
           fetch="https://github.com/ProjectInfinity-X"
           revision="16" />
 
+  <!-- THE EGO 999  -->
+  <remote name="THE-EGO-999-GT"
+          fetch="https://github.com/THE-EGO-999-GT"
+          revision="main" />
+
   <!-- LFS -->
   <remote name="lfs"
           fetch="https://gitea.com/projectInfinity-x"
@@ -59,7 +64,7 @@
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="infinity" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="infinity" />
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="infinity" />
-  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="infinity" />
+  <project path="packages/apps/GameSpace" name="GameSpace" remote="THE-EGO-999-GT" />
   <project path="packages/apps/InfinitySuite" name="packages_apps_InfinitySuite" remote="lfs" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="lfs" />
   <project path="packages/apps/LineageParts" name="packages_apps_Parts" remote="infinity" />
